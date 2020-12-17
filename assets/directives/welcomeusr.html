@@ -1,0 +1,70 @@
+<div class= "text-center">
+    <input style="float: right;"  type="button" class="btn btn-danger btn-lg" ng-click="homefun()" value="LogOut">
+    <h1 class="alert alert-danger text-center wellcome">WELL COME <span >{{selctUsr.username | uppercase}} </span></h1>
+    <div class="row">
+        <div class="col-9">
+            <figure ng-click='Addnewfrblk()' class="figure">
+                <img class="rounded-circle" alt="100x100"  src="https://placehold.it/100x100"  data-holder-rendered="true">
+                <figcaption class="figure-caption">Add New Friend</figcaption>
+            </figure>
+            <span ng-repeat="fr in selctUsr.friends">
+                <figure ng-click='getfrdatas(selctUsr.friends[$index],$index)' class="figure">
+                    <img class="rounded-circle" alt="100x100" src="https://placehold.it/100x100"  data-holder-rendered="true">
+                    <figcaption class="figure-caption">{{selctUsr.friends[$index].fname}}</figcaption>
+            </figure>
+        </span>
+    </div>
+        <div class="col-3"><div>
+            <input  type="button" class="btn btn-warning btn-sm" ng-click="viewtransHistory()" value="Transaction History">
+            <div><ul><li class="hisblk" ng-repeat="prsns in viewtransHisprsns.transactions">{{prsns.name}} --=>   + {{prsns.tramnt}}  </li></ul>
+            <h4 class="alert alert-info">Your Account Balance is {{selctUsr.balance}}</h4>
+            </div>
+        </div></div>
+    </div>
+    <div class="row" ng-hide='addfrblk'>
+        <br>
+        <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group">
+            <label class="figure-caption"> Name :</label>
+              <input class="form-control" placeholder="Enter Name " disabled ng-model="frdatas.fname">
+          </div>
+          <div class="col-4"></div><br><br>
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group">
+            <label class="figure-caption"> Account No. : </label>
+              <input class="form-control" placeholder="Enter Acc.No" disabled ng-model="frdatas.id">
+          </div>
+          <div class="col-4"></div>
+          <br><br>
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group form-inline">
+            <label class="figure-caption">Enter Amount :</label>
+              <input class="form-control" type="number" placeholder="Enter Amount"  ng-model="transAmt"><br><br>
+              <button class="btn btn-info" ng-click="trnfr(frdatas,indx)">TRANSFER</button>
+          </div>
+          <div class="col-4"></div>
+    </div>
+    <div ng-show='addfrblk' class="row">
+        <br>
+        <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group" >
+            <label class="figure-caption">Enter Name :</label>
+              <input class="form-control"  placeholder="Enter Name" ng-model="newfrObj.fname">
+          </div>
+          <div class="col-4"></div><br><br>
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group"  >
+            <label class="figure-caption">Account No. :</label>
+              <input class="form-control" placeholder="Enter Acc.No" ng-model="newfrObj.account_no">
+          </div>
+          <div class="col-4"></div>
+          <br><br>
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center" class="form-group">
+            <label class="figure-caption">Enter Amount :</label>
+              <input class="form-control" type="number" placeholder="Enter Amount"  ng-model="newamnt"><br><br>
+              <button class="btn btn-info" ng-click="Addnewfr()">Add To Friend's List</button>
+          </div>
+          <div class="col-4"></div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+{
+	"userscln": [
+		{
+			"username":"selva",
+			"upi":"selva1111",
+			"email_id":"selva@gmail.com",
+			"balance":10000,
+			"transactions":[],
+			"friends":[
+				{ "id": "1001", "fname": "vignesh","balance": 1000,"email_id":"vignesh@gmail.com","upi_id":"vignesh1001"},
+				{ "id": "1002", "fname": "gopal", "balance": 1000,"email_id":"gopal@gmail.com","upi_id":"gopal1002"},
+				{ "id": "1003", "fname": "vijay","balance": 1000 ,"email_id":"vijay@gmail.com","upi_id":"vijay1003"},
+				{ "id": "1004", "fname": "praveen" ,"balance": 1000,"email_id":"praveen@gmail.com","upi_id":"praveen1004"}
+			]
+			
+	},
+	{	
+		"username":"dhinesh",
+		"upi":"dhinesh1111",
+		"email_id":"dhinesh@gmail.com",
+		"balance":10000,
+		"transactions":[],
+		"friends":[
+			{ "id": "1001", "fname": "karthi","balance": 1000,"email_id":"karthi@gmail.com","upi_id":"karthi1001"},
+			{ "id": "1002", "fname": "venkat", "balance": 1000,"email_id":"venkat@gmail.com","upi_id":"venkat1002"},
+			{ "id": "1003", "fname": "logseh","balance": 1000,"email_id":"logseh@gmail.com","upi_id":"logseh1003"},
+			{ "id": "1004", "fname": "kiren" ,"balance": 1000,"email_id":"kiren@gmail.com","upi_id":"kiren1004"}
+		]
+		
+},{
+	"username":"prakash",
+	"upi":"prakash1111",
+	"email_id":"prakash@gmail.com",
+	"balance":10000,
+	"transactions":[],
+	"friends":[
+		{ "id": "1001", "fname": "sirenchivi","balance": 1000,"email_id":"sirenchivi@gmail.com","upi_id":"sirenchivi1001"},
+		{ "id": "1002", "fname": "vicky", "balance": 1000,"email_id":"vicky@gmail.com","upi_id":"vicky1002"},
+		{ "id": "1003", "fname": "subash","balance": 1000,"email_id":"subash@gmail.com","upi_id":"subash1003"},
+		{ "id": "1004", "fname": "Dhamo" ,"balance": 1000,"email_id":"Dhamo@gmail.com","upi_id":"Dhamo1004"}
+	]
+},{
+	"username":"jhone",
+	"upi":"jhone1111",
+	"email_id":"jhone@gmail.com",
+	"balance":10000,
+	"transactions":[],
+	"friends":[
+		{ "id": "1001", "fname": "Jegan","balance": 1000,"email_id":"Jegan@gmail.com","upi_id":"Jegan1001"},
+		{ "id": "1002", "fname": "Naveen", "balance": 1000,"email_id":"Naveen@gmail.com","upi_id":"Naveen1002"},
+		{ "id": "1003", "fname": "Manikandan","balance": 1000,"email_id":"Manikandan@gmail.com","upi_id":"Manikandan1003"},
+		{ "id": "1004", "fname": "Rafi" ,"balance": 1000,"email_id":"vignesh@gmail.com","upi_id":"vignesh1004"}
+	]
+},{
+	"username":"nedu",
+	"upi":"nedu1111",
+	"email_id":"nedu@gmail.com",
+	"balance":10000,
+	"transactions":[],
+	"friends":[
+		{ "id": "1001", "fname": "balaji","balance": 1000,"email_id":"balaji@gmail.com","upi_id":"balaji1001"},
+		{ "id": "1002", "fname": "saran", "balance": 1000,"email_id":"saran@gmail.com","upi_id":"saran1002"},
+		{ "id": "1003", "fname": "ganesh","balance": 1000,"email_id":"ganesh@gmail.com","upi_id":"ganesh1003"},
+		{ "id": "1004", "fname": "ramkrishnan" ,"balance": 1000,"email_id":"ramkrishnan@gmail.com","upi_id":"ramkrishnan1004"}
+	]
+	
+}
+	
+	]
+}

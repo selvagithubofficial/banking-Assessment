@@ -1,0 +1,35 @@
+input.ng-invalid {
+	background-color: pink;
+  }
+  input.ng-valid {
+	background-color: lightgreen;
+  }
+  .pages1{
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  body{
+    background: url("img/193-1932527_hd-wallpaper-namangan-markaziy-bank.jpg")  center center  no-repeat fixed;
+    background-size: cover;
+    font-family: cursive;
+  }
+  .figure-caption{
+    padding: 3px;
+    background-color: rgb(2, 2, 4);
+    color: seashell;
+    border: 1px solid greenyellow;
+  }
+  .wellcome{
+    padding: 3px;
+    font-weight: bolder;
+  }
+  .hisblk{
+    color: rgb(3, 10, 43);
+    padding: 2px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    border-radius: 4px;
+  }
